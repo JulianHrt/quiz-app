@@ -1,0 +1,28 @@
+.navbarsection {
+  margin-top: 80px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  z-index: 20;
+  box-shadow: var(--shadow);
+}
+
+.nav--item {
+  width: 35px;
+  margin: 10px;
+  transition: 0.2ms;
+}
+
+.nav--item:hover {
+  width: 45px;
+  border: 3px solid black;
+  border-radius: 100%;
+  padding: 3px;
+  margin: 10px;
+}
