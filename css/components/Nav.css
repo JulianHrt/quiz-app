@@ -13,16 +13,23 @@
   box-shadow: var(--shadow);
 }
 
-.nav--item {
+.nav__item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav__item--higlight {
   width: 35px;
   margin: 10px;
   transition: 0.2ms;
 }
 
-.nav--item:hover {
+.nav__item--higlight:hover {
   width: 45px;
   border: 3px solid black;
   border-radius: 100%;
   padding: 3px;
   margin: 10px;
+  background-color: rgba(128, 128, 128, 0.126);
 }

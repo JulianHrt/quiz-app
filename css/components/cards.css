@@ -42,3 +42,8 @@
   transition-delay: 0.1s;
   color: var(--text-color);
 }
+
+.answer {
+  text-align: center;
+  visibility: hidden;
+}
